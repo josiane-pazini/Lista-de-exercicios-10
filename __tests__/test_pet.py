@@ -17,7 +17,7 @@ pet_tag_name = "vacinado"
 url= 'https://petstore.swagger.io/v2/pet'
 headers={'Content-Type': 'application/json'}
 
-#2.2-Funções /método
+#2.2-Funções /métodos
 def test_post_pet():
     #configura
     pet=open('./fixtures/json/pet1.json')             #abre o arquivo json 
